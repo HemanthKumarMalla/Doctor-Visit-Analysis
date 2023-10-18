@@ -4,6 +4,9 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 
+#reading the data set
+df=pd.read_csv("DoctorVisits - DA.csv")
+
 # list the data of illness patients and gender.
 df["illness"].value_counts()
 df["gender"].value_counts()
